@@ -1,6 +1,6 @@
 # Spring Boot MongoDB React Fullstack App
 ## Download
-```git clone https://github.com/maheshkareeya/spring-boot-react-mongodb-crud.git```
+```git clone https://github.com/automateopsprojects/spring-boot-Mongodb.git```
 ```cd spring-boot-mongodb-react-crud```
 ## Open Terminal
 ```cd app```

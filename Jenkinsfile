@@ -10,7 +10,7 @@ pipeline{
 	    stage('gitclone') {
 
 			steps {
-				git 'https://github.com/BharathSharath/spring-boot-mongodb-react-crud.git'
+				git 'https://github.com/automateopsprojects/spring-boot-Mongodb.git'
 			}
 		}
 

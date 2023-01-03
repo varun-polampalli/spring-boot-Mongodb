@@ -37,7 +37,7 @@ pipeline{
                 sshagent(['k8s']) {
                 sh "scp -o StrictHostKeyChecking=no deploy-svc.yml ubuntu@172.31.11.218:/home/ubuntu"
                 script {
-                      sh "ssh ubuntu@172.31.11.65 kubectl apply -f deploy-svc.yml"
+                      sh "ssh ubuntu@172.31.11.218 kubectl apply -f deploy-svc.yml"
                     }
                 }    
             }
